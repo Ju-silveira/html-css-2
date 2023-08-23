@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>estudando iframe</title>
+    <style>
+        #iframe1{
+            width: 400px;
+            height: 300px;
+            border: 6px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>
@@ -12,11 +19,20 @@
     <p>
         acessando o site do 
         
-        <iframe src="https://www.cursoemvideo.com" frameborder="1">
-            cursoemvideo
+        <iframe id="iframe1" src="https://www.cursoemvideo.com" frameborder="0" width="500px" height="500px">
+            <a href="http://www.cursoemvideo.com" target="_blank" rel="noopener noreferrer"></a> 
         </iframe>
-        
+        curso em video
         pelo iframe
+    </p>
+
+    <p>
+        o repositorio do guanabara
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0"
+        height="500px">
+            <a href="http://gustavoguanabara.github.io" target="_blank" rel="noopener noreferrer"></a>
+        </iframe>
+        e bem legal
     </p>
 </body>
 </html>
